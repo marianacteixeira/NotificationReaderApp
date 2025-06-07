@@ -48,4 +48,5 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     implementation(libs.kotlinxSerializationJson)
+    implementation("com.google.android.material:material:1.10.0") // Or a newer version
 }
