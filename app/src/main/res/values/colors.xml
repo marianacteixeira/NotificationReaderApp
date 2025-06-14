@@ -2,4 +2,7 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="ide_dark_grey_background">#2B2B2B</color> <!-- Example dark grey -->
+    <color name="ide_code_text_color">#A9B7C6</color>    <!-- Example light grey/blue for code text -->
+
 </resources>

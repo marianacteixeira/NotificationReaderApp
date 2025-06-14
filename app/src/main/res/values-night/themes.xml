@@ -5,3 +5,52 @@
         <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
     </style>
 </resources>
+
+
+<!--&lt;!&ndash; res/values-night/themes.xml &ndash;&gt;-->
+<!--<resources xmlns:tools="http://schemas.android.com/tools">-->
+<!--    <style name="Base.Theme.NotificationReaderApp" parent="Theme.Material3.DayNight.NoActionBar">-->
+<!--        &lt;!&ndash; Overall window background for dark mode &ndash;&gt;-->
+<!--        <item name="android:windowBackground">@color/ide_dark_grey_background</item>-->
+
+<!--        &lt;!&ndash; Surface colors for components like Cards, Dialogs, BottomSheets &ndash;&gt;-->
+<!--        &lt;!&ndash; Material 3 uses semantic color roles. You might want to align these. &ndash;&gt;-->
+<!--        <item name="colorSurface">@color/ide_dark_grey_background</item> &lt;!&ndash; Or a slightly different shade &ndash;&gt;-->
+<!--        <item name="colorOnSurface">@color/ide_code_text_color</item>-->
+
+<!--        &lt;!&ndash; Text colors &ndash;&gt;-->
+<!--        <item name="android:textColorPrimary">@color/ide_code_text_color</item>-->
+<!--        <item name="android:textColorSecondary">#888888</item> &lt;!&ndash; Softer grey for less important text &ndash;&gt;-->
+
+<!--        &lt;!&ndash; Customize your primary color if needed for accents &ndash;&gt;-->
+<!--        &lt;!&ndash; <item name="colorPrimary">@color/your_ide_accent_color</item> &ndash;&gt;-->
+<!--        &lt;!&ndash; <item name="colorOnPrimary">@color/ide_code_text_color</item> &ndash;&gt;-->
+
+<!--        &lt;!&ndash; You might need to adjust other Material 3 color roles depending on the components you use &ndash;&gt;-->
+<!--        &lt;!&ndash; e.g., colorSurfaceContainer, colorSurfaceVariant, etc. &ndash;&gt;-->
+
+<!--        &lt;!&ndash; For code-like text appearance (see step 2) &ndash;&gt;-->
+<!--        <item name="android:textAppearance">@style/TextAppearance.App.Code</item>-->
+<!--        <item name="textAppearanceHeadline1">@style/TextAppearance.App.Code.Headline1</item>-->
+<!--        <item name="textAppearanceBody1">@style/TextAppearance.App.Code.Body1</item>-->
+<!--        &lt;!&ndash; ... and so on for other text appearances you use &ndash;&gt;-->
+<!--    </style>-->
+
+<!--    &lt;!&ndash; Define your custom text appearance styles here or in a separate styles.xml &ndash;&gt;-->
+<!--    <style name="TextAppearance.App.Code" parent="android:TextAppearance">-->
+<!--        <item name="android:fontFamily">monospace</item> &lt;!&ndash; Key for code-like look &ndash;&gt;-->
+<!--        <item name="android:textSize">14sp</item>      &lt;!&ndash; Adjust as needed &ndash;&gt;-->
+<!--        <item name="android:textColor">@color/ide_code_text_color</item>-->
+<!--    </style>-->
+
+<!--    &lt;!&ndash; You can extend it for different text roles if needed &ndash;&gt;-->
+<!--    <style name="TextAppearance.App.Code.Headline1" parent="TextAppearance.App.Code">-->
+<!--        <item name="android:textSize">24sp</item>-->
+<!--    </style>-->
+
+<!--    <style name="TextAppearance.App.Code.Body1" parent="TextAppearance.App.Code">-->
+<!--        <item name="android:textSize">14sp</item>-->
+<!--    </style>-->
+<!--    &lt;!&ndash; Add more specific text appearances as necessary &ndash;&gt;-->
+
+<!--</resources>-->
